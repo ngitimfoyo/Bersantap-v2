@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Bersantap v2</title>
+	<script	src="https://maps.googleapis.com/maps/api/js?v=3&signed_in=true&libraries=places"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script src="./SiteAssets/script/main.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="./SiteAssets/style/main.css"/>
+</head>
+<body>
+<div class="">
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">My App</a>
+			    </div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="main-navbar">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Pencarian<span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Tentang kami</a></li>
+			      </ul>
+			    </div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div id="kategori-area" class="col-xs-12 col-md-3">
+			<ul class="list-group">
+			  <li class="list-group-item">Bersantap</li>
+			  <li class="list-group-item">Salon</li>
+			  <li class="list-group-item">Bengkel</li>
+			  <li class="list-group-item">Kunci</li>
+			  <li class="list-group-item">Kos2an</li>
+			  <li class="list-group-item">Tambal ban</li>
+			</ul>
+		</div>
+		<div id="peta-area" class="col-xs-12 col-md-6"></div>
+		<div id="deskripsi-area" class="col-xs-12 col-md-3">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Bengkel Eksotis</h3>
+			  </div>
+			  <div class="panel-body">
+			    <div id="detail-alamat">			    
+			    		Alamat: <br>
+			    		Jl Harapan Palsu <br>
+			    		Jakarta Utara			    	
+			    </div>
+			    <br>
+			    <div id="detail-layanan">
+			    	Melayani: <br>
+			    	- Service berat <br>
+			    	- Service ringan <br>
+			    	- Ganti oli <br>
+			    	- Ganti kabel <br>
+			    	- Permak <br>
+			    	- Cat
+			    </div>
+			    <br>
+			    <div id="detail-kontak">
+			    	0873 2342 2323 <br>
+			    	(021) 2344 423424
+			    </div>
+			    
+			    <div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Komentar</h3>
+				  </div>
+				  <div class="panel-body">
+				  	<div>
+				  		<p>Encep</p>
+				  		<p>Pelayanan yang bagus om</p>
+				  	</div>
+				  	<div>
+				  		<p>Encep</p>
+				  		<p>Pelayanan yang bagus om</p>
+				  	</div>
+				  	<div>
+				  		<p>Encep</p>
+				  		<p>Pelayanan yang bagus om</p>
+				  	</div>
+				  </div>
+				 </div>				 
+			  </div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

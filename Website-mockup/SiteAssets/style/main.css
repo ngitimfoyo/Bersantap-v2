@@ -1,0 +1,11 @@
+#kategori-area {}
+
+#peta-area {height: 500px;}
+
+#deskripsi-area {height: 100%}
+
+li.list-group-item:hover {
+    background-color: #95F794;
+    color: #fff;
+    cursor: pointer;
+}
