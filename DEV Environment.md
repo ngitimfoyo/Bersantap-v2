@@ -12,6 +12,9 @@ Finally, to check everything works, open phpinfo() from phpMyAdmin then check if
 
 # MongoDB
 
-Install mongodb from : https://www.mongodb.org. This website also provides plenty tutorial, check them out.
-For those who dont like much working on console window, there are many apps for mongoGUI. One of them is **mongochef** http://3t.io/mongochef/
+Installer for mongodb can be downloaded from here : https://www.mongodb.org.
+To run mongoDB, we will need to do some configurations manually : https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/. You can choose to install mongod service so mongodb will run as windows starting or manually run mongod.exe to activate mongodb service in timely manner.
 
+Besides, this website also provides plenty tutorial, check them out too.
+
+For those who dont like much working on console window, there are many apps for mongoGUI. One of them is **mongochef** http://3t.io/mongochef/
